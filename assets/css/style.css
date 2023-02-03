@@ -711,6 +711,7 @@ div[class*='kursorChild'].kursorChild:after {
 
 .btn {
 	color: var(--secondary);
+    margin-top: 10px;
 	border: 2px solid transparent;
 	padding: 15px 25px;
 	text-decoration: none;
@@ -755,6 +756,19 @@ div[class*='kursorChild'].kursorChild:after {
 
 .btn-link:hover {
 	color: var(--gray)
+}
+
+.btn-icon{
+    display: inline-block;
+	padding: 0 1rem;
+    color: var(--gray);
+	position: relative;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out
+}
+
+.btn-icon:hover {
+	color: var(--secondary)
 }
 
 .pulse {
@@ -863,7 +877,7 @@ header.has-style-01 .hero-content h1 {
 }
 
 header.has-style-01 .hero-content ul.link {
-	margin: 40px 0
+	margin: 30px 0
 }
 
 @media (max-width: 767.98px) {
@@ -945,8 +959,8 @@ header.has-style-01 .hero-thumb .thumb {
 }
 
 header.has-style-01 ul.social {
-	position: absolute;
-	right: -5rem;
+	position: fixed;
+	right: -6rem;
 	top: 50%;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
@@ -1453,13 +1467,15 @@ header.has-style-02 .shape-03 {
 }
 
 .portfolio.has-style-01 .item-card {
+    overflow: hidden;
+    position: relative;
 	background: var(--tertiary);
 	border-radius: 15px;
 	padding: 1.5rem;
 	margin-bottom: 2rem;
 	border: 2px solid transparent;
 	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out
+	transition: .3s ease-in-out;
 }
 
 .portfolio.has-style-01 .item-card:hover {
@@ -1509,7 +1525,7 @@ header.has-style-02 .shape-03 {
 	position: relative
 }
 
-.portfolio.has-style-01 .item-card .item-image .link-image {
+.portfolio.has-style-01 .item-card .link-image {
 	position: absolute;
 	bottom: -50px;
 	right: -50px;
@@ -1520,6 +1536,7 @@ header.has-style-02 .shape-03 {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+    /* display: none; */
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
@@ -1543,7 +1560,7 @@ header.has-style-02 .shape-03 {
 }
 
 .portfolio.has-style-01 .item-card:hover .link-image:hover {
-	background: var(--tertiary)
+	background: var(--tertiary-02)
 }
 
 @media (max-width: 767.98px) {
