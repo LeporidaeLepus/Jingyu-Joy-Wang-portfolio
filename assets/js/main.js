@@ -43,6 +43,9 @@ $(document).ready(function () {
     },
   });
 
+  
+mers_tm_owl_carousel()
+
   // Scroll back to top
   var progressPath = document.querySelector('.scroll-up path');
   var pathLength = progressPath.getTotalLength();
@@ -101,3 +104,44 @@ $(document).ready(function () {
 
 
 });
+
+// owl-carousel
+function mers_tm_owl_carousel(){
+  "use strict";
+  
+  var carousel2 = jQuery('.skills .owl-carousel');
+  carousel2.owlCarousel({
+      loop: true,
+      items: 12,
+      lazyLoad: false,
+      margin: 50,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      dots: true,
+      nav: false,
+      navSpeed: true,
+      responsive: {
+          0 : {
+            items: 4
+          },
+          480 : {
+            items: 4
+          },
+          768 : {
+            items: 8
+          },
+          1040 : {
+            items: 10
+          },
+          1200 : {
+            items: 12
+          },
+          1600 : {
+            items: 14
+          },
+          1920 : {
+            items: 16
+          }
+      }
+  });
+}

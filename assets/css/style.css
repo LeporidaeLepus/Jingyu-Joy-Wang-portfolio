@@ -896,12 +896,12 @@ header.has-style-01 .hero-thumb {
 	text-align: center
 }
 
-header.has-style-01 .hero-thumb .move-shape,header.has-style-01 .hero-thumb .skills,header.has-style-01 .hero-thumb .play {
+header.has-style-01 .hero-thumb .move-shape,header.has-style-01 .hero-thumb .img-skills,header.has-style-01 .hero-thumb .play {
 	position: absolute
 }
 
 @media (max-width: 767.98px) {
-	header.has-style-01 .hero-thumb .move-shape,header.has-style-01 .hero-thumb .skills {
+	header.has-style-01 .hero-thumb .move-shape,header.has-style-01 .hero-thumb .img-skills {
 		display: none
 	}
 }
@@ -916,7 +916,7 @@ header.has-style-01 .hero-thumb .move-shape {
 /* -webkit-box-shadow:-15px -15px 25px rgba(0,0,0,0.1);box-shadow:-15px -15px 25px rgba(0,0,0,0.1) */
 }
 
-header.has-style-01 .hero-thumb .skills {
+header.has-style-01 .hero-thumb .img-skills {
 	bottom: -3rem;
 	right: -1rem;
 	width: 150px;
@@ -1711,7 +1711,58 @@ header.has-style-02 .shape-03 {
 	background: var(--secondary)
 }
 
-.skils.has-style-01 .shape-03 {
+.skills.has-style-01 {
+    position: relative;
+	border-top: 2px solid var(--tertiary);
+	margin-bottom: 2rem;
+}
+
+.skills.has-style-01 .carousel{
+    line-height: 2;
+}
+
+.skills.has-style-01 ul{
+	margin-left: 0 2rem;
+	list-style-type: none;
+}
+
+.skills.has-style-01 ul li {
+	display: inline-block;
+	opacity: .4;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.skills.has-style-01 ul li:hover{
+	opacity: 1;
+}
+
+@media (max-width: 767.98px) {
+	.skills.has-style-01 ul li {
+		margin-bottom: 2rem
+	}
+}
+
+.skills.has-style-01 ul li i {
+	margin-right: 4rem;
+    font-weight: bolder;
+    color: white;
+}
+
+/* .skills.has-style-01 ul li i:hover {
+	color: var(--secondary)
+} */
+
+/* .skills.has-style-01 ul li:last-child i {
+	margin-right: 0
+} */
+
+
+
+/* .skils.has-style-01 .shape-03 {
 	right: 10%;
 	top: -40px;
 	width: 80px
@@ -2431,7 +2482,7 @@ header.has-style-02 .shape-03 {
 .skils.has-style-01 .progress[data-percentage="100"] .progress-left .progress-bar {
 	-webkit-animation: loading-30 1s linear forwards 1s;
 	animation: loading-30 1s linear forwards 1s
-}
+} */
 
 @-webkit-keyframes loading-1 {
 	0% {
