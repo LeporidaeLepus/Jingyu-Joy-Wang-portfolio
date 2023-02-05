@@ -30,8 +30,8 @@ $(document).ready(function () {
       }, 100);
     });
 
-  // testimonialsSwiper
-  const swiper = new Swiper('.testimonialsSwiper', {
+  // educationSwiper
+  const swiper = new Swiper('.educationSwiper', {
     spaceBetween: 100,
     scrollbar: {
       el: '.swiper-scrollbar',

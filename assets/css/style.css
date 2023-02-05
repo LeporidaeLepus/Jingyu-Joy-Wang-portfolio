@@ -1564,46 +1564,46 @@ header.has-style-02 .shape-03 {
 }
 
 @media (max-width: 767.98px) {
-	.testimonials.has-style-01 {
+	.education.has-style-01 {
 		text-align: center
 	}
 
-	.testimonials.has-style-01 .heading-title {
+	.education.has-style-01 .heading-title {
 		text-align: left
 	}
 }
 
-.testimonials.has-style-01 .shape-03 {
+.education.has-style-01 .shape-03 {
 	left: 38%;
 	top: -50px;
 	width: 100px
 }
 
-.testimonials.has-style-01 .shape-04 {
+.education.has-style-01 .shape-04 {
 	right: 20%;
 	top: 50px;
 	width: auto
 }
 
-.testimonials.has-style-01 .shape-08 {
+.education.has-style-01 .shape-08 {
 	right: 20%;
 	top: 50px;
 	width: auto
 }
 
 @media (max-width: 767.98px) {
-	.testimonials.has-style-01 .testimonials-img {
+	.education.has-style-01 .education-img {
 		margin-bottom: 2rem
 	}
 }
 
-.testimonials.has-style-01 .swiper .swiper-slide {
+.education.has-style-01 .swiper .swiper-slide {
 	cursor: pointer;
 	margin-bottom: 40px;
 	text-align: left
 }
 
-.testimonials.has-style-01 .swiper .swiper-slide .heading {
+.education.has-style-01 .swiper .swiper-slide .heading {
 	width: 100%;
 	margin-bottom: 20px;
 	-webkit-box-pack: justify;
@@ -1615,47 +1615,67 @@ header.has-style-02 .shape-03 {
 }
 
 @media (min-width: 767.98px) {
-	.testimonials.has-style-01 .swiper .swiper-slide .heading {
+	.education.has-style-01 .swiper .swiper-slide .heading {
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex
 	}
 }
 
-.testimonials.has-style-01 .swiper .swiper-slide .heading .information img {
-	width: 80px;
-	height: 80px
+.education.has-style-01 .swiper .swiper-slide .heading .nyu img {
+	width: 60px;
+	height: 86px
 }
 
-.testimonials.has-style-01 .swiper .swiper-slide .heading .information .info {
+.education.has-style-01 .swiper .swiper-slide .heading .njupt img{
+	width: 120px;
+	height: 100px
+}
+
+/* @media (max-width: 767.98px) {
+	.education.has-style-01 .swiper .swiper-slide .heading .information img {
+        width: 12%;
+        height: 12%
+    }
+} */
+
+.education.has-style-01 .swiper .swiper-slide .heading .information .info {
 	margin-left: 1rem
 }
 
-.testimonials.has-style-01 .swiper .swiper-slide .heading .information .info h3 {
-	color: var(--gray)
+.education.has-style-01 .swiper .swiper-slide .heading .information .info h3 {
+	color: var(--gray); 
 }
 
-.testimonials.has-style-01 .swiper .swiper-slide .heading .information .info h4 {
-	color: var(--secondary)
+.education.has-style-01 .swiper .swiper-slide .heading .information .info h4 {
+	 
+    color: var(--secondary); 
 }
 
-.testimonials.has-style-01 .swiper .swiper-slide .heading ul.stars {
+.education.has-style-01 .swiper .swiper-slide .desc p {
+    font-weight: bolder;
+    font-size: large;
+    /* margin-left: 5%; */
+    /* text-align: end; */
+}
+
+.education.has-style-01 .swiper .swiper-slide .heading ul.stars {
 	margin-top: 20px
 }
 
-.testimonials.has-style-01 .swiper .swiper-slide .heading ul.stars li {
+.education.has-style-01 .swiper .swiper-slide .heading ul.stars li {
 	color: var(--gray);
 	margin-right: 5px;
 	font-size: 15px;
 	opacity: .3
 }
 
-.testimonials.has-style-01 .swiper .swiper-slide .heading ul.stars li.perfect {
+.education.has-style-01 .swiper .swiper-slide .heading ul.stars li.perfect {
 	opacity: 1;
 	color: var(--secondary)
 }
 
-.testimonials.has-style-01 .arrow {
+.education.has-style-01 .arrow {
 	position: absolute;
 	right: 0;
 	bottom: 0;
@@ -1663,7 +1683,7 @@ header.has-style-02 .shape-03 {
 	height: 15px
 }
 
-.testimonials.has-style-01 .arrow i {
+.education.has-style-01 .arrow i {
 	margin-left: 10px;
 	font-size: 18px;
 	color: var(--white);
@@ -1671,23 +1691,23 @@ header.has-style-02 .shape-03 {
 	transition: .3s ease-in-out
 }
 
-.testimonials.has-style-01 .arrow i:hover {
+.education.has-style-01 .arrow i:hover {
 	color: var(--secondary)
 }
 
-.testimonials.has-style-01 .swiper-horizontal>.swiper-scrollbar {
+.education.has-style-01 .swiper-horizontal>.swiper-scrollbar {
 	position: absolute;
 	left: 0;
 	bottom: 3px;
 	width: 80%
 }
 
-.testimonials.has-style-01 .swiper-scrollbar {
+.education.has-style-01 .swiper-scrollbar {
 	background: var(--tertiary);
 	cursor: pointer
 }
 
-.testimonials.has-style-01 .swiper-scrollbar-drag {
+.education.has-style-01 .swiper-scrollbar-drag {
 	background: var(--secondary)
 }
 
@@ -3369,7 +3389,7 @@ header.has-style-02 .shape-03 {
 footer.has-style-01 {
 	position: relative;
 	border-top: 2px solid var(--tertiary);
-	padding: 4rem 0 1.5rem;
+	padding: 2.5rem 0 1.5rem;
 	background: var(--primary)
 }
 
