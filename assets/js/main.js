@@ -112,9 +112,9 @@ function mers_tm_owl_carousel(){
   var carousel2 = jQuery('.skills .owl-carousel');
   carousel2.owlCarousel({
       loop: true,
-      items: 12,
+      items: 5,
       lazyLoad: false,
-      margin: 50,
+      margin: 10,
       autoplay: true,
       autoplayTimeout: 3000,
       dots: true,
@@ -128,19 +128,19 @@ function mers_tm_owl_carousel(){
             items: 4
           },
           768 : {
-            items: 8
+            items: 6
           },
           1040 : {
-            items: 10
+            items: 6
           },
           1200 : {
-            items: 12
+            items: 8
           },
           1600 : {
-            items: 14
+            items: 8
           },
           1920 : {
-            items: 16
+            items: 8
           }
       }
   });

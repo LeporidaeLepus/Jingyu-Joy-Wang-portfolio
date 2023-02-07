@@ -1718,7 +1718,7 @@ header.has-style-02 .shape-03 {
 }
 
 .skills.has-style-01 .carousel{
-    line-height: 2;
+    line-height: 3;
 }
 
 .skills.has-style-01 ul{
@@ -1728,7 +1728,7 @@ header.has-style-02 .shape-03 {
 
 .skills.has-style-01 ul li {
 	display: inline-block;
-	opacity: .4;
+	opacity: .7;
 	
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
@@ -1750,6 +1750,11 @@ header.has-style-02 .shape-03 {
 	margin-right: 4rem;
     font-weight: bolder;
     color: white;
+}
+
+.skills.has-style-01 .skills-logo {
+    height: 50px;
+    /* width: 100px; */
 }
 
 /* .skills.has-style-01 ul li i:hover {
