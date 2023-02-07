@@ -109,10 +109,10 @@ mers_tm_owl_carousel()
 function mers_tm_owl_carousel(){
   "use strict";
   
-  var carousel2 = jQuery('.skills .owl-carousel');
-  carousel2.owlCarousel({
+  var carousel1 = jQuery('.skills .carousel1 .owl-carousel');
+  carousel1.owlCarousel({
       loop: true,
-      items: 5,
+      items: 10,
       lazyLoad: false,
       margin: 10,
       autoplay: true,
@@ -131,16 +131,53 @@ function mers_tm_owl_carousel(){
             items: 6
           },
           1040 : {
-            items: 6
+            items: 8
           },
           1200 : {
-            items: 8
+            items: 10
           },
           1600 : {
-            items: 8
+            items: 10
           },
           1920 : {
-            items: 8
+            items: 12
+          }
+      }
+  });
+
+  var carousel2 = jQuery('.skills .carousel2 .owl-carousel');
+  carousel2.owlCarousel({
+      rtl: true,
+      loop: true,
+      items: 10,
+      lazyLoad: false,
+      margin: 10,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      dots: true,
+      nav: false,
+      navSpeed: true,
+      responsive: {
+          0 : {
+            items: 4
+          },
+          480 : {
+            items: 4
+          },
+          768 : {
+            items: 6
+          },
+          1040 : {
+            items: 7
+          },
+          1200 : {
+            items: 9
+          },
+          1600 : {
+            items: 9
+          },
+          1920 : {
+            items: 11
           }
       }
   });
