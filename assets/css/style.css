@@ -1142,6 +1142,7 @@ header.has-style-02 .shape-03 {
 
 @media all and (max-width: 992px) {
 	.navbar {
+        height: 70px;
 		padding-top: 1rem !important;
 		padding-bottom: 1rem !important
 	}
@@ -1717,6 +1718,18 @@ header.has-style-02 .shape-03 {
 	.education.has-style-01 {
 		text-align: center;
 	}
+}
+
+.skills.has-style-01 .shape-10 {
+	left: 62%;
+	top: -50px;
+	width: 100px
+}
+
+.skills.has-style-01 .shape-07 {
+	left: 30%;
+	bottom: 50px;
+	width: 100px
 }
 
 .skills.has-style-01 .carousel{
