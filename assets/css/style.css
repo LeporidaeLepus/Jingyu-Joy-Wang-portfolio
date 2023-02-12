@@ -311,14 +311,17 @@ hr.hr-01 {
 }
 
 @font-face {
+	text-rendering: optimizeLegibility;
 	font-family:"Quicksand-Bold";src:url("../fonts/Quicksand-Bold.ttf") format("truetype")
 }
 
 @font-face {
+	text-rendering: optimizeLegibility;
 	font-family:"Quicksand-Medium";src:url("../fonts/Quicksand-Medium.ttf") format("truetype")
 }
 
 @font-face {
+	text-rendering: optimizeLegibility;
 	font-family:"Quicksand-Regular";src:url("../fonts/Quicksand-Regular.ttf") format("truetype")
 }
 
